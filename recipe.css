@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf7e3;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1rem;
+}
+nav ul li {
+    margin: 0 1.5rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    color: #ff6f61;
+}
+#Profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+#Profile .img img {
+    border-radius: 50%;
+    border: 5px solid #ff6f61;
+}
+#Profile .img img:hover {
+    transform: scale(1.1);
+}
+#Profile .bio {
+    max-width: 600px;
+    margin-left: 2rem;
+}
+#Profile .bio h2 {
+    font-size: 2rem;
+    color: #ff6f61;
+}
+
+#Profile .bio p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+}
+
+.about-us {
+    max-width: 600px;
+}
+
+.about-us h1 {
+    font-size: 2.2rem;
+    color: #ff6f61;
+    margin-bottom: 1.5rem;
+}
+
+.about-us p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.about-img img {
+    border-radius: 50%;
+    border: 4px solid #333;
+
+}
+#menu {
+    padding: 3rem 2rem;
+}
+
+#menu h1 {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-bottom: 2rem;
+}
+
+.abc {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.xyz{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+}
+
+#recipe, #Dessert, #appetizers, #side {
+    text-align: center;
+    margin: 1rem;
+}
+
+#recipe img, #Dessert img, #appetizers img, #side img {
+    border-radius: 15px;
+    border: 5px solid #ff6f61;
+    transition: transform 0.3s ease;
+}
+
+.soup img, .chicken img, .show img, .pasta img, .salad img, .paneer img{
+    border-radius: 50%;
+    border: 5px solid #ff6f61;
+    transition: transform 0.3s ease;
+}
+#recipe img:hover, #Dessert img:hover, #appetizers img:hover, #side img:hover {
+    transform: scale(1.1);
+}
+.abc h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #333;
+}
+.abc a {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+.abc a:hover {
+    background-color: #333;
+}
+section:last-of-type {
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+section:last-of-type h1 {
+    font-size: 2rem;
+    color: #ff6f61;
+}
+
+#qwe1{
+    background-color: darkcyan;
+    height: 500px;
+    width: 350px;
+h1{
+    margin-top: 40px;
+    color: #f4f4f4;
+}
+}
+#qwe2{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 350px;
+    color: black;
+h1{
+    color: black;
+    margin-top: 20px;
+}
+}
+#contact-page{
+    background-color:#f4f4f4;
+}
+.contact{
+    display: flex;
+    padding-left: 400px;
+    height: 600px;
+    margin-top: 80px;
+    
+}
+input{
+    padding: 8px;
+    margin: 8px;
+    background-color: ghostwhite;
+}
+textarea{
+    padding: 8px;
+    margin: 8px;
+    background-color: ghostwhite;
+    
+}
+button{
+    background-color: darkcyan;
+    border-radius: 20PX;
+    padding: 10PX;
+    width: 100PX;
+    border-color: darkcyan;
+}
